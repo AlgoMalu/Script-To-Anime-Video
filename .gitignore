@@ -1,0 +1,15 @@
+# 忽略根目录其他文件夹（只保留 data_processing）
+data/
+model/
+storyboard_judge/
+
+# 忽略不需要上传的文件夹
+data_processing/result/
+data_processing/__pycache__/
+data_processing/batch_logs/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
